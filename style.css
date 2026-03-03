@@ -19,13 +19,11 @@
 }
 
 .heroChild h1 {
-    font-size: 48px;
     color: white;
     margin: 0;
 }
 
 .heroChild p {
-    font-size: 24px;
     color: rgb(230, 224, 224);
     margin: 0;
 }
