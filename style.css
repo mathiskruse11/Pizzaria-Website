@@ -1,7 +1,20 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url('/fonts/Caveat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
     background-color: #201b3d;
     background-blend-mode: lighten;
-    background-image: url('hero.jpg');
+    background-image: url('/img/hero.jpg');
     background-size: cover;
     background-position: center;
     height: 290px;
