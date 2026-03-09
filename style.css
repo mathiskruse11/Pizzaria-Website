@@ -5,10 +5,35 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Caveat', cursive;
     margin: 0;
     padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    padding: 1rem 0;
+}
+
+.navbar a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.navbar a:hover {
+    color: #f83029;
+    transition: color 0.3s ease;
 }
 
 .hero {
@@ -24,18 +49,21 @@ body {
 }
 
 .title {
+    font-family: 'Caveat', sans-serif;
     font-size: 3rem;
     color: rgb(255, 255, 255);
     margin: 0;
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     color: rgb(212, 211, 211);
     margin: 1rem 0;
 }
 
 .btn {
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     padding: 1rem 2rem;
     background-color: #f83029;
@@ -59,7 +87,17 @@ body {
     }
 
     .subtitle {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 1.25rem 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    .navbar a {
+        font-size: 1.2rem;
+        margin: 0 1.5rem;
     }
 }
 
