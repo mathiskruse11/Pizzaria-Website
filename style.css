@@ -52,3 +52,19 @@ body {
     border: 1px solid #f83029;
     transition: all 0.3s ease;
 }
+
+@media only screen and (min-width: 600px) {
+    .title {
+        font-size: 5rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .title {
+        font-size: 6rem;
+    }
+}
