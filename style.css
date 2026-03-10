@@ -54,6 +54,7 @@ body {
   transition: color 0.3s ease-in-out;
 }
 
+
 .hero {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/hero.jpg);
@@ -100,7 +101,8 @@ body {
 }
 
 .about {
-  padding: 2rem;
+  padding: 4rem 2rem;
+
 }
 
 .about-content {
@@ -123,6 +125,17 @@ body {
   color: var(--text-color);
   line-height: 1.2rem;
   margin-bottom: 2rem;
+}
+
+.btn-card {
+    padding: 1rem 2rem;
+    width: fit-content;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    color: white;
+    margin: 0 0 2rem;
 }
 
 .about-images {
@@ -167,6 +180,7 @@ body {
     padding: 1.25rem 2.5rem;
     font-size: 1.2rem;
   }
+  
 }
 
 @media only screen and (min-width: 1000px) {
@@ -187,5 +201,13 @@ body {
   .btn {
     padding: 1.5rem 3rem;
     font-size: 1.5rem;
+  }
+
+  .about {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 4rem 3rem;
   }
 }
