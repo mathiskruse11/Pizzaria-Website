@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Caveat";
   src: url("/fonts/Caveat-VariableFont_wght.ttf") format("truetype");
@@ -54,10 +58,9 @@ body {
   transition: color 0.3s ease-in-out;
 }
 
-
 .hero {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/hero.jpg);
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/hero.jpg);
   background-size: cover;
   background-position: center;
   height: calc(100vh - 5rem);
@@ -181,6 +184,10 @@ body {
     font-size: 1.2rem;
   }
   
+  .about-text {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -208,6 +215,16 @@ body {
     gap: 2rem;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin: 4rem 3rem;
+    margin: 6rem 4rem;
+  }
+
+  .about-text {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+
+  .heading {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 }
