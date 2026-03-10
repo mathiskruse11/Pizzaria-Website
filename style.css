@@ -201,11 +201,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.
+
 @media only screen and (min-width: 600px) {
+  
   .navbar {
-    font-size: 1.2rem;
     gap: 2rem;
+    font-size: 2rem;
   }
 
   .title {
