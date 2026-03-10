@@ -125,11 +125,6 @@ body {
   margin-bottom: 2rem;
 }
 
-img {
-  overflow: clip;
-  overflow-clip-margin: content-box;
-}
-
 .about-images {
   display: flex;
   width: 100%;
