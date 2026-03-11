@@ -202,6 +202,14 @@ body {
   justify-content: space-between;
 }
 
+.days {
+  color: var(--text-color);
+}
+
+.time {
+  color: white;
+}
+
 @media only screen and (min-width: 600px) {
   
   .navbar {
