@@ -107,6 +107,13 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
+.btn-invert:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border: 1px solid var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
 .btn-call {
   background-color: var(--primary-color);
   color: var(--text-color);
@@ -117,6 +124,13 @@ body {
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
+
+.btn-call:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: all 0.3s ease-in-out;
+} 
 
 
 .btn:hover {
@@ -161,6 +175,13 @@ body {
     border: 1px solid var(--primary-color);
     color: white;
     margin: 0 0 2rem;
+}
+
+.btn-card:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .about-images {
@@ -270,11 +291,38 @@ body {
   margin-top: 1rem;
 }
 
+.footer {
+  background-color: #2b2b2b;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-item {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-copyright {
+  color: white;
+  font-size: 0.8rem;
+}
+
 @media only screen and (min-width: 600px) {
   
   .navbar {
     gap: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .title {
@@ -300,11 +348,25 @@ body {
   .contact-content {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;  
   }
+
 
   .contact-img {
     width: 60%;
+  }
+
+  .footer-links {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .footer-item {
+    font-size: 1.2rem;
+  }
+
+  .footer-copyright {
+    font-size: 1rem;
   }
 }
 
@@ -392,22 +454,3 @@ body {
   
 }
 
-@media only screen and (min-width: 1600px) {
-  .about {
-    display: flex;
-    margin: 0 8rem;
-    justify-content: center;
-  }
-
-  .about-text {
-    max-width: 800px;
-    min-width: 600px;
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-  }
-
-  .about-images {
-    max-width: 800px;
-    min-width: 600px;
-  }
-}
