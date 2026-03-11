@@ -311,6 +311,12 @@ body {
   color: white;
   text-decoration: none;
   font-size: 1rem;
+  
+}
+
+.footer-item:hover {
+  color: var(--primary-color);
+  transition: color 0,3s ease-in-out;
 }
 
 .footer-copyright {
