@@ -96,6 +96,29 @@ body {
   color: white;
 }
 
+.btn-invert {
+  background-color: transparent;
+    color: var(--primary-color);
+    width: fit-content;
+    padding: 1rem 2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-call {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+    width: fit-content;
+    padding: 1rem 2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+
 .btn:hover {
   background-color: transparent;
   color: var(--primary-color);
@@ -210,6 +233,43 @@ body {
   color: white;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 85%;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-img {
+  width: 100%;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-detail {
+  margin-top: 0.5rem;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.contact-action {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
 @media only screen and (min-width: 600px) {
   
   .navbar {
@@ -235,6 +295,16 @@ body {
   .about-text {
     font-size: 1.2rem;
     line-height: 1.4rem;
+  }
+
+  .contact-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-img {
+    width: 60%;
   }
 }
 
@@ -294,6 +364,32 @@ body {
   .entry-plan {
     font-size: 1.2rem;
   }
+
+  .contact-img {
+    width: 50%;
+  }
+  .contact-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .contact-action {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .contact-detail {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .heading-info {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
 }
 
 @media only screen and (min-width: 1600px) {
