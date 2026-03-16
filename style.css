@@ -189,6 +189,7 @@ body {
   font-size: 2rem;
   line-height: 2rem;
   letter-spacing: 0, 2rem;
+  margin-bottom: 1rem;
 }
 
 .entry-plan {
@@ -199,6 +200,7 @@ body {
 .entry-days {
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 
 .days {
