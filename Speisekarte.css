@@ -10,10 +10,6 @@
   padding: 0;
 }
 
-body {
-  background-color: #1a1a1a;
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -22,9 +18,23 @@ body {
   margin-top: 2rem;
 }
 
+.speisekarte {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./img/pexels-eva-bronzini-7598248.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .heading {
-  color: white;
+  color: lightgrey;
   font-family: "Caveat";
   font-size: 2.5rem;
   letter-spacing: 1px;
+  margin-top: 2rem;
 }
