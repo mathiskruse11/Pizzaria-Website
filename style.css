@@ -124,6 +124,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: left;
+  inline-size: fit-content;
 }
 .heading {
   text-decoration: underline;
