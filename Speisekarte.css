@@ -18,13 +18,15 @@
   margin-top: 2rem;
 }
 
-.speisekarte {
+body {
   background:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(./img/pexels-eva-bronzini-7598248.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+}
+
+.speisekarte {
   display: flex;
   flex-direction: column;
   align-items: center;
